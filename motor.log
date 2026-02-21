@@ -14,3 +14,19 @@ Press CTRL+C to quit
  1 file changed, 1 insertion(+), 1 deletion(-)
 To github.com:brasdefer1597-cloud/Chalamandra-HUB.git
    75e4952..8ab7660  main -> main
+[main e63b535] 📦 Backup: 3500
+ 2 files changed, 17 insertions(+)
+ create mode 100644 motor.log
+To github.com:brasdefer1597-cloud/Microcosmos_Elite.git
+   06915df..e63b535  main -> main
+ * Detected change in '/home/chalamandramagistral/Microcosmos_Elite/app.py', reloading
+📡 Señal recibida: b'{"amount": "200", "from_name": "Inversionista Global"}'
+✅ Inyección aceptada: {'amount': '200', 'from_name': 'Inversionista Global'}
+ * Restarting with stat
+sh: 1: speaker-test: not found
+[main 3bc17ea] 🚀 Sync Masa Crítica: 4000
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+speaker-test: no process found
+127.0.0.1 - - [21/Feb/2026 02:20:50] "POST /webhook-money HTTP/1.1" 200 -
+To github.com:brasdefer1597-cloud/Chalamandra-HUB.git
+   b6f3745..3bc17ea  main -> main
