@@ -1,0 +1,32 @@
+{
+  "masa_critica": 14,
+  "ultimo_pulso": "2026-02-20T16:17:14Z",
+  "status": "PROFIT_MODE",
+  "poas": 1.4,
+  "ultimo_mecenas": "",
+  "ultima_llave": "92028127",
+  "proyectos": {
+    "ajedrez": {
+      "entropia": 0.12,
+      "status": "CALCULATING"
+    },
+    "metodologias": {
+      "tokens": 0,
+      "status": "LOCKED"
+    },
+    "realidades": {
+      "masa_critica": 5,
+      "status": "RAW"
+    },
+    "caos_claridad": {
+      "presion_termica": 0.8,
+      "status": "STABLE"
+    }
+  },
+  "estado_celeron": {
+    "ram_libre": "2.0Gi",
+    "carga_cpu": " 0.20, 0.26, 0.21",
+    "temperatura": "",
+    "ultimo_pulso": "2026-02-20T10:17:14-06:00"
+  }
+}

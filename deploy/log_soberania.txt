@@ -1,0 +1,20 @@
+sed: can't read status.json: No such file or directory
+sed: can't read status.json: No such file or directory
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0curl: (6) Could not resolve host: TU_URL_DE_WEBHOOK_AQUI
+✅ Radiación ESTÁNDAR desplegada con éxito.
+bash: 0: command not found
+bash: 0: command not found
+curl: no URL specified!
+curl: try 'curl --help' or 'curl --manual' for more information
+✅ Dossier enviado al Búnker.
+curl: no URL specified!
+curl: try 'curl --help' or 'curl --manual' for more information
+✅ Dossier enviado al Búnker.
+curl: no URL specified!
+curl: try 'curl --help' or 'curl --manual' for more information
+✅ Dossier enviado al Búnker.
