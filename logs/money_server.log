@@ -1,12 +1,5 @@
-nohup: ignoring input
-[2026-02-21 00:09:07 -0600] [17523] [INFO] Starting gunicorn 25.1.0
-[2026-02-21 00:09:07 -0600] [17523] [INFO] Listening at: http://0.0.0.0:5000 (17523)
-[2026-02-21 00:09:07 -0600] [17523] [INFO] Using worker: sync
-[2026-02-21 00:09:07 -0600] [17525] [INFO] Booting worker with pid: 17525
-[2026-02-21 00:09:07 -0600] [17523] [INFO] Control socket listening at /home/chalamandramagistral/Microcosmos_Elite/gunicorn.ctl
-DEBUG TELEGRAM: 403 - {"ok":false,"error_code":403,"description":"Forbidden: bot can't initiate conversation with a user"}
-127.0.0.1 - - [21/Feb/2026:00:09:28 -0600] "POST /webhook-money HTTP/1.1" 200 2 "-" "curl/7.88.1"
-DEBUG TELEGRAM: 200 - {"ok":true,"result":{"message_id":2,"from":{"id":8355044301,"is_bot":true,"first_name":"Chalamandra Operaciones","username":"Chalamdra_bot"},"chat":{"id":7582797756,"first_name":"Chalamandra","last_name":"Magistral","type":"private"},"date":1771654586,"text":"\ud83d\udc8e INYECCI\u00d3N: $1597.00","entities":[{"offset":3,"length":19,"type":"bold"}]}}
-127.0.0.1 - - [21/Feb/2026:00:16:26 -0600] "POST /webhook-money HTTP/1.1" 200 2 "-" "curl/7.88.1"
-DEBUG TELEGRAM: 200 - {"ok":true,"result":{"message_id":3,"from":{"id":8355044301,"is_bot":true,"first_name":"Chalamandra Operaciones","username":"Chalamdra_bot"},"chat":{"id":7582797756,"first_name":"Chalamandra","last_name":"Magistral","type":"private"},"date":1771654609,"text":"\ud83d\udc8e INYECCI\u00d3N: $1597.00","entities":[{"offset":3,"length":19,"type":"bold"}]}}
-127.0.0.1 - - [21/Feb/2026:00:16:49 -0600] "POST /webhook-money HTTP/1.1" 200 2 "-" "curl/7.88.1"
+[2026-02-21 00:31:31 -0600] [20920] [INFO] Starting gunicorn 25.1.0
+[2026-02-21 00:31:31 -0600] [20920] [INFO] Listening at: http://0.0.0.0:5000 (20920)
+[2026-02-21 00:31:31 -0600] [20920] [INFO] Using worker: sync
+[2026-02-21 00:31:31 -0600] [20963] [INFO] Booting worker with pid: 20963
+[2026-02-21 00:31:31 -0600] [20920] [INFO] Control socket listening at /home/chalamandramagistral/Microcosmos_Elite/gunicorn.ctl
