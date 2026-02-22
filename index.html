@@ -3,48 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Microcosmos Elite - HUB</title>
+    <title>CHALAMANDRA - NODE XALAPA</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&display=swap');
+        body { background-color: #000; font-family: 'Fira+Code', monospace; }
+        .glow-green { text-shadow: 0 0 10px #00ff88; }
+        .card-bunker { background: #050505; border: 1px solid #111; transition: all 0.3s; }
+        .card-bunker:hover { border-color: #00ff88; transform: translateY(-2px); }
+    </style>
 </head>
-<body class="bg-black text-white font-mono flex flex-col items-center justify-center min-h-screen p-4">
+<body class="text-gray-400 min-h-screen p-4 md:p-8">
 
-    <h1 class="text-2xl md:text-4xl font-bold tracking-tighter mb-4 text-[#00ff88]">CHALAMANDRA HUB</h1>
-    
-    <section class="w-full max-w-4xl mt-8">
-        <div class="bg-[#050505] border border-[#111] p-4 rounded-sm shadow-2xl">
-            <div class="flex items-center gap-2 mb-3 border-b border-[#111] pb-2">
-                <div class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></div>
-                <span class="text-[10px] uppercase tracking-widest text-gray-400">Live Telemetry: Celeron_Bunker_Node_Xalapa</span>
-            </div>
-            <div id="log-container" class="text-[10px] md:text-xs h-40 overflow-hidden flex flex-col-reverse font-mono text-[#006633] leading-relaxed">
-                <p class="text-gray-500">> Handshake established. Waiting for node pulse...</p>
-            </div>
+    <header class="max-w-6xl mx-auto mb-10 flex flex-wrap justify-between items-end gap-4 border-b border-[#111] pb-6">
+        <div>
+            <h1 class="text-3xl md:text-5xl font-bold text-[#00ff88] tracking-tighter glow-green">NODE_XALAPA_V1</h1>
+            <p class="text-[10px] text-gray-600 mt-2 uppercase tracking-[0.5em]">Sovereign Infrastructure / Intel Celeron Inside</p>
         </div>
-    </section>
+        <div class="text-right text-[10px] space-y-1 uppercase">
+            <p>STATUS: <span class="text-[#00ff88] animate-pulse">ONLINE</span></p>
+            <p>RAM: 1.5GB / <span class="text-yellow-600">TINY LINUX MODE</span></p>
+            <p>EXECUTION: <span class="text-red-600">ROOT_ACCESS</span></p>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
+        
+        <a href="#" class="card-bunker p-6 group">
+            <div class="flex justify-between items-start mb-4">
+                <span class="text-[#00ff88] text-xs font-bold">[ MISIÓN_01 ]</span>
+                <span class="text-[9px] text-gray-600 italic">QUANTUM_COLLAPSE</span>
+            </div>
+            <h2 class="text-xl text-white mb-2 uppercase">Ajedrez de Atracción</h2>
+            <p class="text-xs text-gray-500 leading-relaxed">Simulador de colapso cuántico aplicado a la Ley de Atracción. Mueve tus piezas, colapsa tu realidad.</p>
+        </a>
+
+        <a href="#" class="card-bunker p-6 group">
+            <div class="flex justify-between items-start mb-4">
+                <span class="text-[#00ff88] text-xs font-bold">[ MISIÓN_02 ]</span>
+                <span class="text-[9px] text-gray-600 italic">FACTOR_MOD_15</span>
+            </div>
+            <h2 class="text-xl text-white mb-2 uppercase">Protocolo de Shor</h2>
+            <p class="text-xs text-gray-500 leading-relaxed">Desencriptación de capital mediante algoritmos cuánticos ejecutados en hardware legado.</p>
+        </a>
+
+        <section class="md:col-span-2 mt-4">
+            <div class="card-bunker p-4">
+                <div id="log-container" class="text-[10px] h-40 overflow-hidden flex flex-col-reverse text-[#006633]">
+                    <p class="text-gray-700">> Initializing neural link with Celeron Bunker...</p>
+                </div>
+                <div class="mt-4 flex items-center bg-black border border-[#111] p-2">
+                    <span class="text-[#00ff88] text-xs mr-2 font-bold">>_ ORÁCULO:</span>
+                    <input type="text" id="oracle-input" class="bg-transparent border-none outline-none text-white text-xs w-full" placeholder="Inyectar duda...">
+                </div>
+            </div>
+        </section>
+    </main>
 
     <script>
         const logs = [
-            "chalamandra@xalapa:~$ python3 run_shor.py --n 15",
-            "✅ [SUCCESS] 15 factored into [3, 5] | fidelity: 0.9882",
-            "chalamandra@xalapa:~$ df -h | grep /dev/vdc",
-            "📊 STORAGE: 4.6G available (46% used)",
-            "chalamandra@xalapa:~$ ./scripts/radiacion_global.sh",
-            "📡 EMISSION: Entropy 27 | POAS 1.02% | Node: ACTIVE",
-            "chalamandra@xalapa:~$ node GhostPulse.js &",
-            "👻 [PROC] GhostPulse initiated. PID: 27877",
-            "SYSTEM: Syncing with Vercel_Edge... 200 OK",
-            "BUNKER: CPU load 0.15 | Temp 42°C | All systems nominal"
+            "🧠 [AI_THOUGHT] Analizando entropía del observador...",
+            "⚠️ [SYSTEM] RAM al 85%. Manteniendo estabilidad Tiny Linux.",
+            "📡 [SIGNAL] Nodo Xalapa transmitiendo a Vercel Edge.",
+            "💎 [MARKET] Detectada inyección de capital en el bloque 442.",
+            "⚙️ [CPU] Intel Celeron operando a 42°C. Eficiencia máxima."
         ];
         const container = document.getElementById('log-container');
-        function addLog() {
+        function addLog(t) {
             const time = new Date().toLocaleTimeString('en-GB', { hour12: false });
-            const randomLog = logs[Math.floor(Math.random() * logs.length)];
-            const logEntry = document.createElement('p');
-            logEntry.innerHTML = `<span class="text-gray-600">[${time}]</span> ${randomLog}`;
-            container.prepend(logEntry);
-            if (container.children.length > 15) container.removeChild(container.lastChild);
+            const log = document.createElement('p');
+            log.innerHTML = `<span class="text-gray-700">[${time}]</span> ${t || logs[Math.floor(Math.random()*logs.length)]}`;
+            container.prepend(log);
+            if(container.children.length > 10) container.removeChild(container.lastChild);
         }
-        setInterval(addLog, 3000);
+        setInterval(() => addLog(), 4000);
+        
+        document.getElementById('oracle-input').addEventListener('keypress', function(e) {
+            if(e.key === 'Enter') {
+                addLog(`<span class="text-white">QUERY: ${this.value}</span>`);
+                setTimeout(() => addLog(`<span class="text-red-500">!! ENERGÍA INSUFICIENTE. ALIMENTA LA SALAMANDRA.</span>`), 600);
+                this.value = '';
+            }
+        });
     </script>
 </body>
 </html>
