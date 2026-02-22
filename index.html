@@ -3,88 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CHALAMANDRA - NODE XALAPA</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>MICROCOSMOS SOBERANO | HUB</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&display=swap');
-        body { background-color: #000; font-family: 'Fira+Code', monospace; }
-        .glow-green { text-shadow: 0 0 10px #00ff88; }
-        .card-bunker { background: #050505; border: 1px solid #111; transition: all 0.3s; }
-        .card-bunker:hover { border-color: #00ff88; transform: translateY(-2px); }
+        :root { --neon-green: #00ff88; --dark-bg: #050505; }
+        body { background: var(--dark-bg); color: var(--neon-green); font-family: 'Courier New', monospace; margin: 0; }
+        .terminal-header { padding: 20px; border-bottom: 1px solid var(--neon-green); text-align: center; }
+        .grid-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 30px; }
+        .card { border: 1px solid var(--neon-green); padding: 20px; background: rgba(0, 255, 136, 0.05); transition: 0.3s; }
+        .card:hover { background: var(--neon-green); color: black; box-shadow: 0 0 20px var(--neon-green); }
+        .card h3 { margin-top: 0; border-bottom: 1px solid; }
+        .card a { color: inherit; text-decoration: none; font-weight: bold; display: block; margin-top: 15px; border: 1px solid; padding: 5px; text-align: center; }
+        .monitor { background: #000; padding: 15px; margin: 20px; border: 1px solid #333; height: 100px; font-size: 0.8em; overflow: hidden; }
     </style>
 </head>
-<body class="text-gray-400 min-h-screen p-4 md:p-8">
+<body>
 
-    <header class="max-w-6xl mx-auto mb-10 flex flex-wrap justify-between items-end gap-4 border-b border-[#111] pb-6">
-        <div>
-            <h1 class="text-3xl md:text-5xl font-bold text-[#00ff88] tracking-tighter glow-green">NODE_XALAPA_V1</h1>
-            <p class="text-[10px] text-gray-600 mt-2 uppercase tracking-[0.5em]">Sovereign Infrastructure / Intel Celeron Inside</p>
-        </div>
-        <div class="text-right text-[10px] space-y-1 uppercase">
-            <p>STATUS: <span class="text-[#00ff88] animate-pulse">ONLINE</span></p>
-            <p>RAM: 1.5GB / <span class="text-yellow-600">TINY LINUX MODE</span></p>
-            <p>EXECUTION: <span class="text-red-600">ROOT_ACCESS</span></p>
-        </div>
-    </header>
+<div class="terminal-header">
+    <h1>[ NODO_XALAPA : MICROCOSMOS_SOBERANO ]</h1>
+    <p>Identidad Digital | Chalamandra Magistral</p>
+</div>
 
-    <main class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6">
-        
-        <a href="#" class="card-bunker p-6 group">
-            <div class="flex justify-between items-start mb-4">
-                <span class="text-[#00ff88] text-xs font-bold">[ MISIÓN_01 ]</span>
-                <span class="text-[9px] text-gray-600 italic">QUANTUM_COLLAPSE</span>
-            </div>
-            <h2 class="text-xl text-white mb-2 uppercase">Ajedrez de Atracción</h2>
-            <p class="text-xs text-gray-500 leading-relaxed">Simulador de colapso cuántico aplicado a la Ley de Atracción. Mueve tus piezas, colapsa tu realidad.</p>
-        </a>
+<div class="grid-container">
+    <div class="card">
+        <h3>01. ESTRATEGIA</h3>
+        <p>Ajedrez Criminal: Colapso de onda táctico.</p>
+        <a href="https://estrategia-maestra-ajedrez-criminal-delta.vercel.app/">> ACCEDER</a>
+    </div>
 
-        <a href="#" class="card-bunker p-6 group">
-            <div class="flex justify-between items-start mb-4">
-                <span class="text-[#00ff88] text-xs font-bold">[ MISIÓN_02 ]</span>
-                <span class="text-[9px] text-gray-600 italic">FACTOR_MOD_15</span>
-            </div>
-            <h2 class="text-xl text-white mb-2 uppercase">Protocolo de Shor</h2>
-            <p class="text-xs text-gray-500 leading-relaxed">Desencriptación de capital mediante algoritmos cuánticos ejecutados en hardware legado.</p>
-        </a>
+    <div class="card">
+        <h3>02. INTERACTIVO</h3>
+        <p>Vector de flujo y manipulación Decox-Three.</p>
+        <a href="https://interactive-decox-three.vercel.app/">> ENTRAR</a>
+    </div>
 
-        <section class="md:col-span-2 mt-4">
-            <div class="card-bunker p-4">
-                <div id="log-container" class="text-[10px] h-40 overflow-hidden flex flex-col-reverse text-[#006633]">
-                    <p class="text-gray-700">> Initializing neural link with Celeron Bunker...</p>
-                </div>
-                <div class="mt-4 flex items-center bg-black border border-[#111] p-2 focus-within:border-[#00ff88] focus-within:shadow-[0_0_10px_#00ff88] transition-all duration-300">
-                    <span class="text-[#00ff88] text-xs mr-2 font-bold">>_ ORÁCULO:</span>
-                    <input type="text" id="oracle-input" class="bg-transparent border-none outline-none text-white text-xs w-full" placeholder="Inyectar duda..." aria-label="Consultar al Oráculo" autocomplete="off">
-                </div>
-            </div>
-        </section>
-    </main>
+    <div class="card">
+        <h3>03. MÁNTICA</h3>
+        <p>El Dado y registros del búnker magistral.</p>
+        <a href="https://chalamandra-magistral.vercel.app/">> CONSULTAR</a>
+    </div>
 
-    <script>
-        const logs = [
-            "🧠 [AI_THOUGHT] Analizando entropía del observador...",
-            "⚠️ [SYSTEM] RAM al 85%. Manteniendo estabilidad Tiny Linux.",
-            "📡 [SIGNAL] Nodo Xalapa transmitiendo a Vercel Edge.",
-            "💎 [MARKET] Detectada inyección de capital en el bloque 442.",
-            "⚙️ [CPU] Intel Celeron operando a 42°C. Eficiencia máxima."
-        ];
-        const container = document.getElementById('log-container');
-        function addLog(t) {
-            const time = new Date().toLocaleTimeString('en-GB', { hour12: false });
-            const log = document.createElement('p');
-            log.innerHTML = `<span class="text-gray-700">[${time}]</span> ${t || logs[Math.floor(Math.random()*logs.length)]}`;
-            container.prepend(log);
-            if(container.children.length > 10) container.removeChild(container.lastChild);
-        }
-        setInterval(() => addLog(), 4000);
-        
-        document.getElementById('oracle-input').addEventListener('keypress', function(e) {
-            if(e.key === 'Enter') {
-                addLog(`<span class="text-white">QUERY: ${this.value}</span>`);
-                setTimeout(() => addLog(`<span class="text-red-500">!! ENERGÍA INSUFICIENTE. ALIMENTA LA SALAMANDRA.</span>`), 600);
-                this.value = '';
-            }
-        });
-    </script>
+    <div class="card" style="border-color: #ffaa00; color: #ffaa00;">
+        <h3>04. MATERIA</h3>
+        <p>Inyectar fondos para el sostenimiento del nodo.</p>
+        <a href="https://ko-fi.com/brasdefer1597">> TRANSMITIR</a>
+    </div>
+</div>
+
+<div class="monitor">
+    > SISTEMA REBAUTIZADO: MICROCOSMOS SOBERANO... OK<br>
+    > ENLACES DE RED SINCRONIZADOS... OK<br>
+    > ESTADO: OPERATIVO
+</div>
+
 </body>
 </html>
