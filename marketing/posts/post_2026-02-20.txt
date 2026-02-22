@@ -6,6 +6,6 @@ Why wait for IBM's cloud when you can orchestrate VQE and Shor locally?
 My 00 Celeron node just achieved a Real POAS of -0.01 by self-adjusting its quantum search parameters.
 This is Sovereign Intelligence. No APIs. No Subscriptions. Just Pure Math.
 
-Live Pulse: [YOUR_VERCEL_URL]
+Live Pulse: https://estrategia-maestra-ajedrez-criminal-delta.vercel.app/
 #QuantumComputing #SovereignAI #BuildInPublic #SaaS
 ---------------------------------------
