@@ -1,0 +1,15 @@
+{
+    "nodo": "XALAPA-CENTRAL",
+    "proyectos_activos": [
+        "Microcosmos_Elite",
+        "Shor_Oracle_V1",
+        "GhostPulse_Engine",
+        "Chalamandra_Chess_AI"
+    ],
+    "infraestructura": {
+        "storage_avail": "4.6G",
+        "os": "Debian/Linux (Chromebook-Vault)",
+        "cpu": "Celeron-Efficiency-Core"
+    },
+    "seguridad": "Cifrado_Guerrilla"
+}

@@ -1,22 +1,16 @@
 #!/bin/bash
-ROOT="/home/chalamandramagistral/Microcosmos_Elite"
+# NODO #10: Gamificación y Ascensión
+RESULTS_FILE="/home/chalamandramagistral/Microcosmos_Elite/data/resultados_shor.csv"
+STATUS_FILE="/home/chalamandramagistral/Chalamandra-HUB/status.json"
 
-# 1. Calcular entropía (número de líneas en telemetría)
-ENTROPIA=$(wc -l < "$ROOT/data/telemetry.jsonl" 2>/dev/null || echo 0)
+# Extraer última fidelidad del simulador
+ULTIMA_FIDELIDAD=$(tail -n 1 $RESULTS_FILE | cut -d',' -f2)
 
-# 2. Actualizar cloud_snapshot.json con la masa crítica y timestamp
-TMP_FILE=$(mktemp)
-jq --arg e "$ENTROPIA" \
-   --arg t "$(date -u +"%Y-%m-%dT%H:%M:%SZ")" \
-   '. + {masa_critica: ($e | tonumber), ultimo_pulso: $t}' \
-   "$ROOT/hub/cloud_snapshot.json" > "$TMP_FILE"
-mv "$TMP_FILE" "$ROOT/hub/cloud_snapshot.json"
+# Calcular nueva Masa Crítica (Base 1.0 + (Fidelidad / 10))
+# Si la fidelidad es 95%, MC sube +9.5
+NUEVA_MC=$(echo "scale=2; 1.0 + ($ULTIMA_FIDELIDAD / 10)" | bc)
 
-# 3. Copiar a la carpeta deploy y subir a GitHub
-cp "$ROOT/hub/cloud_snapshot.json" "$ROOT/deploy/"
-cd "$ROOT/deploy"
-git add cloud_snapshot.json
-git commit -m "🦊 Pulso cuántico: masa $ENTROPIA" || true
-git push origin main
+# Actualizar el Corazón del HUB
+jq ".masa_critica = $NUEVA_MC | .ultima_fidelidad = $ULTIMA_FIDELIDAD" $STATUS_FILE > tmp.json && mv tmp.json $STATUS_FILE
 
-echo "⚡ MASA CRÍTICA ACTUALIZADA: $ENTROPIA"
+echo "✨ NODO #10: Masa Crítica elevada a $NUEVA_MC basada en Fidelidad $ULTIMA_FIDELIDAD%"

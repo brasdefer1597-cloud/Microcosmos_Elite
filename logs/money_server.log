@@ -1,5 +1,8 @@
-[2026-02-21 02:04:01 -0600] [5053] [INFO] Starting gunicorn 25.1.0
-[2026-02-21 02:04:01 -0600] [5053] [INFO] Listening at: http://0.0.0.0:5000 (5053)
-[2026-02-21 02:04:01 -0600] [5053] [INFO] Using worker: sync
-[2026-02-21 02:04:02 -0600] [5053] [INFO] Control socket listening at /home/chalamandramagistral/Microcosmos_Elite/gunicorn.ctl
-[2026-02-21 02:04:02 -0600] [5080] [INFO] Booting worker with pid: 5080
+[2026-02-22 08:45:48 -0600] [25740] [INFO] Starting gunicorn 25.1.0
+[2026-02-22 08:45:48 -0600] [25740] [INFO] Listening at: http://0.0.0.0:5000 (25740)
+[2026-02-22 08:45:48 -0600] [25740] [INFO] Using worker: sync
+[2026-02-22 08:45:48 -0600] [25740] [INFO] Control socket listening at /home/chalamandramagistral/Microcosmos_Elite/gunicorn.ctl
+[2026-02-22 08:45:48 -0600] [25756] [INFO] Booting worker with pid: 25756
+[2026-02-22 08:47:56 -0600] [25740] [INFO] Handling signal: int
+[2026-02-22 08:47:57 -0600] [25756] [INFO] Worker exiting (pid: 25756)
+[2026-02-22 08:47:57 -0600] [25740] [INFO] Shutting down: Master

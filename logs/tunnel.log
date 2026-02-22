@@ -39,3 +39,327 @@ nohup: ignoring input
 {"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T04:37:42Z","message":"QUIC MTU updated to 1314"}
 {"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T04:37:44Z","message":"QUIC MTU updated to 1355"}
 {"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T04:37:45Z","message":"QUIC MTU updated to 1375"}
+{"level":"error","error":"lookup region1.v2.argotunnel.com: i/o timeout","time":"2026-02-21T10:03:02Z","message":"Failed to refresh DNS local resolver"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"failed to accept QUIC stream: timeout: no recent network activity","time":"2026-02-21T10:03:07Z","message":"failed to accept incoming stream requests"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"timeout: no recent network activity","time":"2026-02-21T10:03:07Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"accept stream listener encountered a failure while serving","time":"2026-02-21T10:03:07Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"accept stream listener encountered a failure while serving","time":"2026-02-21T10:03:07Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T10:03:07Z","message":"Retrying connection in up to 1s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T10:03:07Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["management_logs","allow_remote_config","serialized_headers","support_datagram_v2","support_quic_eof"],"time":"2026-02-21T10:03:07Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T10:03:07Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T10:03:07Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T10:03:07Z","message":"Registering tunnel connection"}
+{"level":"info","event":0,"connection":"9f9ff6c4-f06c-4930-9f23-01bd718fb09d","connIndex":0,"location":"qro02","ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T10:03:07Z","message":"Registered tunnel connection"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T10:03:07Z","message":"QUIC MTU updated to 1314"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T10:03:08Z","message":"QUIC MTU updated to 1355"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T10:03:09Z","message":"QUIC MTU updated to 1375"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"timeout: no recent network activity","time":"2026-02-21T22:48:42Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"failed to accept QUIC stream: timeout: no recent network activity","time":"2026-02-21T22:48:42Z","message":"failed to accept incoming stream requests"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"datagram manager encountered a failure while serving","time":"2026-02-21T22:48:42Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"datagram manager encountered a failure while serving","time":"2026-02-21T22:48:42Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:48:42Z","message":"Retrying connection in up to 1s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:48:46Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["support_quic_eof","management_logs","allow_remote_config","serialized_headers","support_datagram_v2"],"time":"2026-02-21T22:48:46Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:48:46Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:48:46Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:48:46Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:48:46Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:48:46Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:48:46Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:48:46Z","message":"Retrying connection in up to 4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:48:47Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["allow_remote_config","serialized_headers","support_datagram_v2","support_quic_eof","management_logs"],"time":"2026-02-21T22:48:47Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:48:47Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:48:48Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:48:48Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:48:48Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:48:48Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:48:48Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:48:48Z","message":"Retrying connection in up to 8s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:48:48Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["allow_remote_config","serialized_headers","support_datagram_v2","support_quic_eof","management_logs"],"time":"2026-02-21T22:48:48Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:48:48Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:48:49Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:48:49Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:48:49Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:48:49Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:48:49Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:48:49Z","message":"Retrying connection in up to 16s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:49:05Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["management_logs","allow_remote_config","serialized_headers","support_datagram_v2","support_quic_eof"],"time":"2026-02-21T22:49:05Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:49:05Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:49:05Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:49:05Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:49:05Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:49:05Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:49:05Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:49:05Z","message":"Retrying connection in up to 32s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:49:11Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["allow_remote_config","serialized_headers","support_datagram_v2","support_quic_eof","management_logs"],"time":"2026-02-21T22:49:11Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:49:11Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:49:11Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:49:11Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:49:11Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:49:11Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:49:11Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:49:11Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:49:20Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["management_logs","allow_remote_config","serialized_headers","support_datagram_v2","support_quic_eof"],"time":"2026-02-21T22:49:20Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:49:20Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:49:21Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:49:21Z","message":"Registering tunnel connection"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:49:21Z","message":"QUIC MTU updated to 1314"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:49:21Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:49:21Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:49:21Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:49:21Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:49:38Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["allow_remote_config","serialized_headers","support_datagram_v2","support_quic_eof","management_logs"],"time":"2026-02-21T22:49:38Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:49:38Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:49:38Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:49:38Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:49:38Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:49:38Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:49:38Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:49:38Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:49:48Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["allow_remote_config","serialized_headers","support_datagram_v2","support_quic_eof","management_logs"],"time":"2026-02-21T22:49:48Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:49:48Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:49:48Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:49:48Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:49:48Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:49:48Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:49:48Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:49:49Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:49:58Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["support_quic_eof","management_logs","allow_remote_config","serialized_headers","support_datagram_v2"],"time":"2026-02-21T22:49:58Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:49:58Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:49:59Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:49:59Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:49:59Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:49:59Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:49:59Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:49:59Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:50:31Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["serialized_headers","support_datagram_v2","support_quic_eof","management_logs","allow_remote_config"],"time":"2026-02-21T22:50:31Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:50:31Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:50:31Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:50:31Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:50:31Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:50:31Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:50:31Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:50:31Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:50:49Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["allow_remote_config","serialized_headers","support_datagram_v2","support_quic_eof","management_logs"],"time":"2026-02-21T22:50:49Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:50:49Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:50:49Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:50:49Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:50:49Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:50:49Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:50:49Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:50:49Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:50:52Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["support_quic_eof","management_logs","allow_remote_config","serialized_headers","support_datagram_v2"],"time":"2026-02-21T22:50:52Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:50:52Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:50:52Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:50:52Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:50:52Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:50:52Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:50:52Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:50:52Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:51:06Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["management_logs","allow_remote_config","serialized_headers","support_datagram_v2","support_quic_eof"],"time":"2026-02-21T22:51:06Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:51:06Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:51:06Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:51:06Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:51:06Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:51:06Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:51:06Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:51:06Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:51:10Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["allow_remote_config","serialized_headers","support_datagram_v2","support_quic_eof","management_logs"],"time":"2026-02-21T22:51:10Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:51:10Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:51:10Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:51:10Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:51:10Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:51:10Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:51:10Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:51:10Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:51:17Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["support_datagram_v2","support_quic_eof","management_logs","allow_remote_config","serialized_headers"],"time":"2026-02-21T22:51:17Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:51:17Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:51:17Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:51:17Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:51:17Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:51:17Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:51:17Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:51:17Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:51:25Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["support_datagram_v2","support_quic_eof","management_logs","allow_remote_config","serialized_headers"],"time":"2026-02-21T22:51:25Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:51:25Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:51:26Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:51:26Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:51:26Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:51:26Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:51:26Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:51:26Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:51:40Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["serialized_headers","support_datagram_v2","support_quic_eof","management_logs","allow_remote_config"],"time":"2026-02-21T22:51:40Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:51:40Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:51:40Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:51:40Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:51:40Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:51:40Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:51:40Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:51:40Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:52:01Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["allow_remote_config","serialized_headers","support_datagram_v2","support_quic_eof","management_logs"],"time":"2026-02-21T22:52:01Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:52:01Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:52:01Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:52:01Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:52:01Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:52:01Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:52:01Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:52:01Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:52:11Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["allow_remote_config","serialized_headers","support_datagram_v2","support_quic_eof","management_logs"],"time":"2026-02-21T22:52:11Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:52:11Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:52:11Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:52:11Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:52:11Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:52:11Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:52:11Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:52:11Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:52:25Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["allow_remote_config","serialized_headers","support_datagram_v2","support_quic_eof","management_logs"],"time":"2026-02-21T22:52:25Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:52:25Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:52:25Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:52:25Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:52:25Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:52:25Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:52:25Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:52:25Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:52:55Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["support_quic_eof","management_logs","allow_remote_config","serialized_headers","support_datagram_v2"],"time":"2026-02-21T22:52:55Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:52:55Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:52:56Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:52:56Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:52:56Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:52:56Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:52:56Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:52:56Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:53:00Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["allow_remote_config","serialized_headers","support_datagram_v2","support_quic_eof","management_logs"],"time":"2026-02-21T22:53:00Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:53:00Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:53:00Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:53:00Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:53:00Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:53:00Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:53:00Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:53:00Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:53:06Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["allow_remote_config","serialized_headers","support_datagram_v2","support_quic_eof","management_logs"],"time":"2026-02-21T22:53:06Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:53:06Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:53:06Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:53:06Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:53:06Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:53:06Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:53:06Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:53:06Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:53:12Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["serialized_headers","support_datagram_v2","support_quic_eof","management_logs","allow_remote_config"],"time":"2026-02-21T22:53:12Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:53:12Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:53:12Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:53:12Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:53:12Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:53:12Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:53:12Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:53:12Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:53:42Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["management_logs","allow_remote_config","serialized_headers","support_datagram_v2","support_quic_eof"],"time":"2026-02-21T22:53:42Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:53:42Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:53:42Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:53:42Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:53:42Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:53:42Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:53:42Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:53:42Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:54:06Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["support_quic_eof","management_logs","allow_remote_config","serialized_headers","support_datagram_v2"],"time":"2026-02-21T22:54:06Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:54:06Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:54:07Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:54:07Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:54:07Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:54:07Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:54:07Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:54:07Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:54:16Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["allow_remote_config","serialized_headers","support_datagram_v2","support_quic_eof","management_logs"],"time":"2026-02-21T22:54:16Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:54:16Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:54:16Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:54:16Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:54:16Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:54:16Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:54:16Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:54:16Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:54:20Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["support_datagram_v2","support_quic_eof","management_logs","allow_remote_config","serialized_headers"],"time":"2026-02-21T22:54:20Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:54:20Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:54:20Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:54:20Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:54:20Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:54:20Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:54:20Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:54:20Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:54:27Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["allow_remote_config","serialized_headers","support_datagram_v2","support_quic_eof","management_logs"],"time":"2026-02-21T22:54:27Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:54:27Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:54:27Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:54:27Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:54:27Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:54:27Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:54:27Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:54:27Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:54:56Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["serialized_headers","support_datagram_v2","support_quic_eof","management_logs","allow_remote_config"],"time":"2026-02-21T22:54:56Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:54:56Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:54:56Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:54:56Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:54:56Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:54:56Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:54:56Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:54:56Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:55:09Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["management_logs","allow_remote_config","serialized_headers","support_datagram_v2","support_quic_eof"],"time":"2026-02-21T22:55:09Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:55:09Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:55:09Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:55:09Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:55:09Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:55:09Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:55:09Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:55:09Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:55:41Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["allow_remote_config","serialized_headers","support_datagram_v2","support_quic_eof","management_logs"],"time":"2026-02-21T22:55:41Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:55:41Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:55:41Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:55:42Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:55:42Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:55:42Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:55:42Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:55:42Z","message":"Retrying connection in up to 1m4s"}
+{"level":"debug","connIndex":0,"event":0,"ip":"198.41.192.57","time":"2026-02-21T22:56:06Z","message":"edge discovery: returning same edge address back to pool"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"connIndex":0,"features":["allow_remote_config","serialized_headers","support_datagram_v2","support_quic_eof","management_logs"],"time":"2026-02-21T22:56:06Z","message":"Tunnel connection options"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:56:06Z","message":"Tunnel connection curve preferences: [X25519MLKEM768 CurveP256]"}
+{"level":"debug","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:56:06Z","message":"Received transport parameters: MaxUDPPayloadSize=1396, MaxIdleTimeout=5s, MaxDatagramFrameSize=16383"}
+{"level":"debug","event":0,"connIndex":0,"ip":"198.41.192.57","protocol":"quic","time":"2026-02-21T22:56:06Z","message":"Registering tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"context canceled","time":"2026-02-21T22:56:06Z","message":"failed to run the datagram handler"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:56:06Z","message":"failed to serve tunnel connection"}
+{"level":"error","event":0,"ip":"198.41.192.57","connIndex":0,"error":"control stream encountered a failure while serving","time":"2026-02-21T22:56:06Z","message":"Serve tunnel error"}
+{"level":"info","event":0,"ip":"198.41.192.57","connIndex":0,"time":"2026-02-21T22:56:06Z","message":"Retrying connection in up to 1m4s"}
+{"level":"info","time":"2026-02-21T22:56:22Z","message":"Initiating graceful shutdown due to signal terminated ..."}
+{"level":"debug","time":"2026-02-21T22:56:22Z","message":"Graceful shutdown signalled"}
+{"level":"error","connIndex":0,"time":"2026-02-21T22:56:22Z","message":"Connection terminated"}
+{"level":"error","time":"2026-02-21T22:56:22Z","message":"no more connections active and exiting"}
+{"level":"info","time":"2026-02-21T22:56:22Z","message":"Tunnel server stopped"}
+{"level":"info","time":"2026-02-21T22:56:22Z","message":"Metrics server stopped"}
