@@ -1,9 +1,7 @@
 #!/bin/bash
-echo "------------------------------------------"
-echo "  [$$$] ¡MATERIA CAPTURADA EN EL BÚNKER!   "
-echo "        EJECUTANDO PROTOCOLO DE ÉXITO      "
-echo "------------------------------------------"
-# Si tu Celeron tiene altavoz, esto hará un "beep"
+# Sonido de moneda (si tienes speaker configurado)
 echo -e "\a" 
-sleep 0.5
-echo "DOPAMINA INJECTED: +100%"
+# Mensaje visual en terminal
+echo "¡ATENCIÓN! MATERIA CAPTURADA EN EL NODO XALAPA"
+# Log de ingresos
+echo "$(date): Ingreso detectado por Ko-fi" >> ingresos.log
