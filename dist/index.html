@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microcosmos Elite - Panel de Lanzamiento Táctico</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            --chala-mandala: #FFB300;
+            --chala-rosa: #D5006C;
+            --chala-verde: #008E4A;
+            --chala-tinta: #1C1C1C;
+            --chala-rojo: #D50000;
+            --chala-azul: #1A237E;
+            --chala-gris: #B0BEC5;
+            --chala-negro-abs: #000000;
+        }
+
+        body {
+            background: var(--chala-negro-abs);
+            color: var(--chala-gris);
+        }
+
+        .grid-overlay {
+            background-image:
+                linear-gradient(rgba(26, 35, 126, 0.16) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(26, 35, 126, 0.16) 1px, transparent 1px);
+            background-size: 36px 36px;
+        }
+
+        .hardware-card {
+            background: linear-gradient(180deg, #060606 0%, #0a0a0a 100%);
+            border: 1px solid #232323;
+        }
+
+        .hardware-card:hover {
+            border-color: var(--chala-rosa);
+            box-shadow: 0 0 26px rgba(213, 0, 108, 0.32);
+        }
+    </style>
+</head>
+<body class="min-h-screen font-mono">
+    <div class="grid-overlay min-h-screen">
+        <main class="mx-auto w-full max-w-6xl px-4 py-8 md:px-8 md:py-12">
+            <header class="mb-8 border border-[#2a2a2a] bg-[#060606] px-4 py-5 md:px-6">
+                <p class="text-[11px] uppercase tracking-[0.25em] text-[var(--chala-verde)]">Microcosmos_Elite</p>
+                <h1 class="mt-2 text-xl font-bold text-white md:text-3xl">Panel de Lanzamiento Táctico</h1>
+                <p class="mt-2 text-xs text-[var(--chala-gris)]">Puente de mando hacia dimensiones operativas.</p>
+            </header>
+
+            <section>
+                <div id="projects-grid" class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3"></div>
+            </section>
+        </main>
+    </div>
+
+    <script>
+        const projectModules = [
+            {
+                name: 'AJEDREZ',
+                url: 'https://estrategia-maestra-ajedrez-criminal-delta.vercel.app/'
+            },
+            {
+                name: 'METODOLOGÍAS Y TELEMETRÍA',
+                url: 'https://chalamandra-magistral.vercel.app/'
+            }
+            // Escalabilidad (proyectos futuros):
+            // { name: 'NOMBRE PROYECTO', url: 'https://tu-url.com/' }
+        ];
+
+        const grid = document.getElementById('projects-grid');
+
+        function renderProjectCards() {
+            grid.innerHTML = '';
+
+            projectModules.forEach((project) => {
+                const card = document.createElement('a');
+                card.href = project.url;
+                card.target = '_blank';
+                card.rel = 'noopener noreferrer';
+                card.className = 'hardware-card group block p-5 transition';
+
+                card.innerHTML = `
+                    <div class="flex items-start justify-between gap-3">
+                        <h2 class="text-base font-bold tracking-wide text-white md:text-lg">${project.name}</h2>
+                        <span class="shrink-0 text-[10px] uppercase tracking-[0.2em] text-[var(--chala-verde)]">STATUS: ACTIVE</span>
+                    </div>
+                    <div class="mt-4 h-[2px] w-16 bg-[var(--chala-mandala)] group-hover:bg-[var(--chala-rosa)]"></div>
+                `;
+
+                grid.appendChild(card);
+            });
+        }
+
+        renderProjectCards();
+    </script>
+</body>
+</html>
