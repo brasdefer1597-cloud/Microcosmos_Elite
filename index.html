@@ -3,17 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chalamandra HUB - 2026</title>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4EDM9V9PPE"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-4EDM9V9PPE');
-    </script>
+    <title>Microcosmos Elite - HUB</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+<body class="bg-black text-white font-mono flex flex-col items-center justify-center min-h-screen p-4">
+
+    <h1 class="text-2xl md:text-4xl font-bold tracking-tighter mb-4 text-[#00ff88]">CHALAMANDRA HUB</h1>
+    
+    <section class="w-full max-w-4xl mt-8">
+        <div class="bg-[#050505] border border-[#111] p-4 rounded-sm shadow-2xl">
+            <div class="flex items-center gap-2 mb-3 border-b border-[#111] pb-2">
+                <div class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></div>
+                <span class="text-[10px] uppercase tracking-widest text-gray-400">Live Telemetry: Celeron_Bunker_Node_Xalapa</span>
+            </div>
+            <div id="log-container" class="text-[10px] md:text-xs h-40 overflow-hidden flex flex-col-reverse font-mono text-[#006633] leading-relaxed">
+                <p class="text-gray-500">> Handshake established. Waiting for node pulse...</p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const logs = [
+            "chalamandra@xalapa:~$ python3 run_shor.py --n 15",
+            "✅ [SUCCESS] 15 factored into [3, 5] | fidelity: 0.9882",
+            "chalamandra@xalapa:~$ df -h | grep /dev/vdc",
+            "📊 STORAGE: 4.6G available (46% used)",
+            "chalamandra@xalapa:~$ ./scripts/radiacion_global.sh",
+            "📡 EMISSION: Entropy 27 | POAS 1.02% | Node: ACTIVE",
+            "chalamandra@xalapa:~$ node GhostPulse.js &",
+            "👻 [PROC] GhostPulse initiated. PID: 27877",
+            "SYSTEM: Syncing with Vercel_Edge... 200 OK",
+            "BUNKER: CPU load 0.15 | Temp 42°C | All systems nominal"
+        ];
+        const container = document.getElementById('log-container');
+        function addLog() {
+            const time = new Date().toLocaleTimeString('en-GB', { hour12: false });
+            const randomLog = logs[Math.floor(Math.random() * logs.length)];
+            const logEntry = document.createElement('p');
+            logEntry.innerHTML = `<span class="text-gray-600">[${time}]</span> ${randomLog}`;
+            container.prepend(logEntry);
+            if (container.children.length > 15) container.removeChild(container.lastChild);
+        }
+        setInterval(addLog, 3000);
+    </script>
 </body>
 </html>
