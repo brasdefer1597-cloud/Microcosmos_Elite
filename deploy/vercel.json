@@ -1,4 +1,7 @@
 {
+  "version": 2,
+  "buildCommand": "mkdir -p dist && cp ../index.html dist/index.html",
+  "outputDirectory": "dist",
   "rewrites": [
     {
       "source": "/ajedrez",
@@ -11,6 +14,10 @@
     {
       "source": "/srap",
       "destination": "/nodo-srap"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
