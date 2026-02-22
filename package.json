@@ -1,0 +1,8 @@
+{
+  "name": "microcosmos-soberano",
+  "version": "2.0.0",
+  "description": "Terminal de Mando Chalamandra Magistral",
+  "scripts": {
+    "start": "vercel dev"
+  }
+}
