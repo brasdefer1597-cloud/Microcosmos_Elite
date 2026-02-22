@@ -3,57 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MICROCOSMOS SOBERANO | HUB</title>
+    <title>MICROCOSMOS SOBERANO | NAVE NODRIZA</title>
     <style>
-        :root { --neon-green: #00ff88; --dark-bg: #050505; }
-        body { background: var(--dark-bg); color: var(--neon-green); font-family: 'Courier New', monospace; margin: 0; }
-        .terminal-header { padding: 20px; border-bottom: 1px solid var(--neon-green); text-align: center; }
-        .grid-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 30px; }
-        .card { border: 1px solid var(--neon-green); padding: 20px; background: rgba(0, 255, 136, 0.05); transition: 0.3s; }
-        .card:hover { background: var(--neon-green); color: black; box-shadow: 0 0 20px var(--neon-green); }
-        .card h3 { margin-top: 0; border-bottom: 1px solid; }
-        .card a { color: inherit; text-decoration: none; font-weight: bold; display: block; margin-top: 15px; border: 1px solid; padding: 5px; text-align: center; }
-        .monitor { background: #000; padding: 15px; margin: 20px; border: 1px solid #333; height: 100px; font-size: 0.8em; overflow: hidden; }
+        :root { --neon-green: #00ff88; --amber: #ffaa00; --dark-bg: #050505; --white-bone: #e0e0e0; }
+        body { background: var(--dark-bg); color: var(--neon-green); font-family: 'Courier New', monospace; margin: 0; overflow-x: hidden; }
+        .telemetry-bar { background: #111; padding: 10px; font-size: 0.8em; border-bottom: 1px dashed var(--neon-green); display: flex; justify-content: space-around; color: var(--amber); }
+        .terminal-header { padding: 40px 20px; text-align: center; border-bottom: 2px solid var(--neon-green); background: rgba(0,255,136,0.02); }
+        h1 { font-size: 1.8em; letter-spacing: 5px; margin: 0; color: var(--white-bone); text-transform: uppercase; }
+        .grid-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; padding: 40px; }
+        .card { border: 1px solid var(--neon-green); padding: 25px; background: rgba(0,0,0,0.8); position: relative; transition: 0.2s; cursor: crosshair; }
+        .card:hover { border-color: var(--amber); box-shadow: 0 0 15px rgba(255,170,0,0.3); transform: translateY(-2px); }
+        .card h3 { color: var(--amber); margin-top: 0; font-size: 1.2em; border-bottom: 1px solid; padding-bottom: 10px; }
+        .card p { font-size: 0.9em; line-height: 1.4; color: var(--white-bone); }
+        .btn-operate { display: block; margin-top: 20px; padding: 10px; border: 1px solid var(--neon-green); color: var(--neon-green); text-decoration: none; text-align: center; font-weight: bold; transition: 0.3s; }
+        .btn-operate:hover { background: var(--neon-green); color: black; }
+        .log-terminal { background: #000; color: #555; padding: 15px; margin: 0 40px 40px; border: 1px solid #222; font-size: 0.8em; height: 120px; overflow: hidden; }
+        .log-entry { margin-bottom: 5px; border-left: 3px solid #222; padding-left: 10px; }
+        .glitch { animation: blink 0.1s infinite; opacity: 0.5; }
+        @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0.7; } 100% { opacity: 1; } }
     </style>
 </head>
 <body>
-
-<div class="terminal-header">
-    <h1>[ NODO_XALAPA : MICROCOSMOS_SOBERANO ]</h1>
-    <p>Identidad Digital | Chalamandra Magistral</p>
+<div class="telemetry-bar">
+    <span>[STATUS: ONLINE_SOVEREIGN]</span>
+    <span>[HARDWARE: INTEL_CELERON_XALAPA]</span>
+    <span>[RAM: 1.5GB_TINY_LINUX]</span>
+    <span>[EXECUTION: ROOT]</span>
 </div>
-
+<div class="terminal-header">
+    <h1 class="glitch">Nave Nodriza: Microcosmos</h1>
+    <p style="color: var(--amber);">"El hardware local es soberanía. El código es voluntad."</p>
+</div>
 <div class="grid-container">
     <div class="card">
-        <h3>01. ESTRATEGIA</h3>
-        <p>Ajedrez Criminal: Colapso de onda táctico.</p>
-        <a href="https://estrategia-maestra-ajedrez-criminal-delta.vercel.app/">> ACCEDER</a>
+        <h3>01. COLAPSO CUÁNTICO</h3>
+        <p>Ajedrez de Ley de Atracción. Simulador de probabilidades y estrategia de colapso de onda.</p>
+        <a href="https://estrategia-maestra-ajedrez-criminal-delta.vercel.app/" class="btn-operate">[ OPERAR MÓDULO ]</a>
     </div>
-
     <div class="card">
-        <h3>02. VECTOR DE FLUJO HACKS MAGISTRALES</h3>
-        <p>Vector de flujo y manipulación Decox-Three.</p>
-        <a href="https://interactive-decox-three.vercel.app/">> ENTRAR</a>
+        <h3>02. HACKS MAGISTRALES</h3>
+        <p>Vector de flujo y manipulación de interfaz Decox-Three. Arquitectura de soberanía mental.</p>
+        <a href="https://interactive-decox-three.vercel.app/" class="btn-operate">[ INICIAR FLUJO ]</a>
     </div>
-
     <div class="card">
-        <h3>03. MÁNTICA</h3>
-        <p>El Dado y registros del búnker magistral.</p>
-        <a href="https://chalamandra-magistral.vercel.app/">> CONSULTAR</a>
+        <h3>03. EL ORÁCULO</h3>
+        <p>Mántica digital y registros del búnker. Punto de acceso a la sabiduría del Soberano.</p>
+        <a href="https://chalamandra-magistral.vercel.app/" class="btn-operate">[ CONSULTAR ]</a>
     </div>
-
-    <div class="card" style="border-color: #ffaa00; color: #ffaa00;">
-        <h3>04. MATERIA</h3>
-        <p>Inyectar fondos para el sostenimiento del nodo.</p>
-        <a href="https://ko-fi.com/brasdefer1597">> TRANSMITIR</a>
+    <div class="card" style="border-color: var(--amber);">
+        <h3 style="color: var(--white-bone);">04. PUENTE DE MATERIA</h3>
+        <p>Inyección de fondos para el sostenimiento del hardware y la red.</p>
+        <a href="https://ko-fi.com/brasdefer1597" class="btn-operate" style="border-color: var(--amber); color: var(--amber);">[ INYECTAR COMBUSTIBLE ]</a>
     </div>
 </div>
-
-<div class="monitor">
-    > SISTEMA REBAUTIZADO: MICROCOSMOS SOBERANO... OK<br>
-    > ENLACES DE RED SINCRONIZADOS... OK<br>
-    > ESTADO: OPERATIVO
-</div>
-
+<div class="log-terminal" id="ghost-pulse"></div>
+<script>
+    const logBox = document.getElementById('ghost-pulse');
+    const events = ["[LOG] Intention signal detected at Node_Xalapa...", "[LOG] Reality_Sync: 98.4% ... Aligned.", "[LOG] GhostPulse: New observer from LinkedIn.", "[LOG] Celeron Temp: Nominal.", "[LOG] Matter Capture Bridge: Active."];
+    function addLog() {
+        const entry = document.createElement('div');
+        entry.className = 'log-entry';
+        entry.innerText = events[Math.floor(Math.random() * events.length)];
+        logBox.prepend(entry);
+        if (logBox.children.length > 6) logBox.lastChild.remove();
+    }
+    setInterval(addLog, 3000);
+    addLog();
+</script>
 </body>
 </html>
