@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Terminal, Cpu, Database, Activity, Flame, AlertTriangle, KeyRound } from 'lucide-react';
 import { projects } from './data/projects';
 import { ProjectCard } from './components/ProjectCard';
@@ -59,8 +59,35 @@ function App() {
   const [hubStatus, setHubStatus] = useState<HubStatus>(initialStatus);
   const [statusLatencyMs, setStatusLatencyMs] = useState<number | null>(null);
   const [countdownNow, setCountdownNow] = useState(initialStatus.countdown);
+  const [isMateriaAlertActive, setIsMateriaAlertActive] = useState(false);
+  const [telemetryLines, setTelemetryLines] = useState<string[]>([
+    '[INFO] Sincronizando con Nodo Xalapa...',
+    '[OK] Firewall Soberano activo.',
+    '[SCAN] Buscando materia en el horizonte de sucesos...',
+    '[IDLE] Celeron 1.5GB RAM - Temperatura estable.'
+  ]);
   const { pudinState } = usePudin();
   const { stats, topNode, registerVisit, updateNodosActivos, trackDecodification, trackNodeClick } = useStats();
+
+  const appendTelemetry = useCallback((line: string) => {
+    setTelemetryLines((prev) => [...prev.slice(-7), line]);
+  }, []);
+
+  const alertarMateria = useCallback((source: 'Ko-fi' | 'Stripe' | 'Misión Crítica') => {
+    setIsMateriaAlertActive(true);
+    window.setTimeout(() => setIsMateriaAlertActive(false), 5000);
+
+    fetch('http://localhost:4000/api/celebrar', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ source, timestamp: new Date().toISOString() }),
+      keepalive: true
+    }).catch(() => null);
+
+    const logLine = '[ALERT] Colapso de función de onda exitoso. Materia detectada en el Horizonte de Sucesos.';
+    console.log(logLine);
+    appendTelemetry(logLine);
+  }, [appendTelemetry]);
 
   useEffect(() => {
     setIsAdmin(syncPudinFromUrl());
@@ -70,6 +97,36 @@ function App() {
     registerVisit();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  useEffect(() => {
+    const telemetryRotation = [
+      '[INFO] Sincronizando con Nodo Xalapa...',
+      '[OK] Firewall Soberano activo.',
+      '[SCAN] Buscando materia en el horizonte de sucesos...',
+      '[IDLE] Celeron 1.5GB RAM - Temperatura estable.'
+    ];
+
+    let idx = 0;
+    const timer = window.setInterval(() => {
+      appendTelemetry(telemetryRotation[idx % telemetryRotation.length]);
+      idx += 1;
+    }, 10_000);
+
+    return () => window.clearInterval(timer);
+  }, [appendTelemetry]);
+
+  useEffect(() => {
+    const onKofiPing = () => alertarMateria('Ko-fi');
+    const onStripePing = () => alertarMateria('Stripe');
+
+    window.addEventListener('kofi:ping', onKofiPing);
+    window.addEventListener('stripe:ping', onStripePing);
+
+    return () => {
+      window.removeEventListener('kofi:ping', onKofiPing);
+      window.removeEventListener('stripe:ping', onStripePing);
+    };
+  }, [alertarMateria]);
 
   useEffect(() => {
     window.chalamandra = window.chalamandra || {
@@ -178,6 +235,13 @@ function App() {
     window.open('#', '_blank', 'noopener,noreferrer');
   };
 
+  const handleNodeClick = (node: string) => {
+    trackNodeClick(node);
+    if (['Ajedrez', 'Dado', 'Blog'].some((keyword) => node.includes(keyword))) {
+      appendTelemetry('[VECT] Abriendo conexión con módulo estratégico...');
+    }
+  };
+
   const path = window.location.pathname;
 
   const pulseValues = useMemo(() => {
@@ -202,7 +266,15 @@ function App() {
   }
 
   return (
-    <div className={`min-h-screen bg-black px-6 pb-8 text-gray-100 transition-all duration-300 md:px-8 ${isAdmin ? 'pt-44 md:pt-36' : 'pt-20'} ${isOffline ? 'grayscale' : ''}`}>
+    <div className={`relative min-h-screen bg-black px-6 pb-8 text-gray-100 transition-all duration-300 md:px-8 ${isAdmin ? 'pt-44 md:pt-36' : 'pt-20'} ${isOffline && !isMateriaAlertActive ? 'grayscale' : ''}`}>
+      {isMateriaAlertActive && (
+        <div className="pointer-events-none fixed inset-0 z-50 flex items-center justify-center bg-amber-300/10">
+          <div className="rounded border border-[#FFD700] bg-black/80 px-6 py-3 text-lg font-black tracking-[0.2em] text-[#FFD700] shadow-[0_0_50px_rgba(255,215,0,0.6)]">
+            [$] MATERIA CAPTURADA
+          </div>
+        </div>
+      )}
+
       <EcosystemHeader isAdmin={isAdmin} />
 
       {isAdmin && (
@@ -222,9 +294,9 @@ function App() {
       )}
 
       <div className="mx-auto mb-4 flex max-w-5xl items-center justify-between">
-        <div className="flex items-center gap-2 rounded-full border border-green-900 bg-green-950/20 px-3 py-1">
-          <div className={`h-2 w-2 rounded-full ${isOffline ? 'bg-red-500' : 'animate-pulse bg-green-500'}`} />
-          <span className="text-[10px] uppercase tracking-widest text-green-500">Monitor de Masa Crítica · status.json</span>
+        <div className={`flex items-center gap-2 rounded-full px-3 py-1 ${isMateriaAlertActive ? 'border border-[#FFD700]/70 bg-[#FFD700]/10' : 'border border-green-900 bg-green-950/20'}`}>
+          <div className={`h-2 w-2 rounded-full ${isOffline ? 'bg-red-500' : isMateriaAlertActive ? 'animate-pulse bg-[#FFD700]' : 'animate-pulse bg-green-500'}`} />
+          <span className={`text-[10px] uppercase tracking-widest ${isMateriaAlertActive ? 'text-[#FFD700]' : 'text-green-500'}`}>Monitor de Masa Crítica · status.json</span>
         </div>
 
         <div className="flex items-center gap-2 text-[10px] text-gray-500">
@@ -251,11 +323,11 @@ function App() {
       </header>
 
       <section className="mx-auto mb-8 grid max-w-5xl grid-cols-1 gap-4 md:grid-cols-4">
-        <div className="rounded border border-green-700/30 bg-green-950/10 p-4">
-          <p className="mb-2 text-[10px] uppercase tracking-[0.25em] text-green-300">Live Pulse</p>
+        <div className={`rounded border p-4 ${isMateriaAlertActive ? 'border-[#FFD700]/40 bg-[#FFD700]/10' : 'border-green-700/30 bg-green-950/10'}`}>
+          <p className={`mb-2 text-[10px] uppercase tracking-[0.25em] ${isMateriaAlertActive ? 'text-[#FFD700]' : 'text-green-300'}`}>Live Pulse</p>
           <div className="flex h-16 items-end gap-1">
             {pulseValues.map((value, idx) => (
-              <div key={idx} className={`w-full rounded-sm ${isOffline ? 'bg-slate-500/60' : 'bg-green-500/80'}`} style={{ height: `${value}%` }} />
+              <div key={idx} className={`w-full rounded-sm ${isOffline ? 'bg-slate-500/60' : isMateriaAlertActive ? 'bg-[#FFD700]/80' : 'bg-green-500/80'}`} style={{ height: `${value}%` }} />
             ))}
           </div>
         </div>
@@ -303,6 +375,15 @@ function App() {
         </div>
       </section>
 
+      <div className="mx-auto mb-8 flex max-w-5xl justify-end">
+        <button
+          onClick={() => alertarMateria('Misión Crítica')}
+          className="rounded border border-amber-500/60 bg-amber-500/10 px-4 py-2 text-[10px] font-bold uppercase tracking-[0.2em] text-amber-200 transition hover:bg-amber-400/20"
+        >
+          Misión Crítica
+        </button>
+      </div>
+
       <main className="mx-auto grid max-w-6xl grid-cols-1 gap-12 md:grid-cols-2">
         {projects.map((p, i) => (
           <ProjectCard
@@ -312,11 +393,20 @@ function App() {
             pudinIntensity={pudinState.intensity}
             isAdmin={isAdmin}
             onUpgrade={handleUpgrade}
-            onNodeClick={trackNodeClick}
+            onNodeClick={handleNodeClick}
             isDegraded={isOffline}
           />
         ))}
       </main>
+
+      <section className="mx-auto mt-12 max-w-6xl rounded border border-green-500/40 bg-black p-4 font-mono text-sm text-green-400">
+        <p className="mb-3 text-[11px] uppercase tracking-[0.25em] text-green-300">Terminal de Telemetría</p>
+        <div className="space-y-2">
+          {telemetryLines.map((line, idx) => (
+            <p key={`${line}-${idx}`} className="animate-pulse leading-tight text-green-400">{line}</p>
+          ))}
+        </div>
+      </section>
 
       <footer className="mx-auto mt-20 max-w-5xl border-t border-gray-900 pt-8 text-center">
         <div className="mb-4 flex items-center justify-center gap-8">
