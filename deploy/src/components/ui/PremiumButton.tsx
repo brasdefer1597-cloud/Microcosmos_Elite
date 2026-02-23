@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Crown, Sparkles, ExternalLink } from 'lucide-react';
-import { useStats } from '../hooks/useStats';
+import { useStats } from '../../hooks/useStats';
 
 interface PremiumButtonProps {
   variant?: 'default' | 'cta' | 'minimal';

@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from 'react';
 import { ExternalLink, Activity, Users, Zap, Lock, Sparkles } from 'lucide-react';
-import { Project } from '../types';
+import { Project } from '../../types';
 
 interface ProjectCardProps {
   project: Project;
