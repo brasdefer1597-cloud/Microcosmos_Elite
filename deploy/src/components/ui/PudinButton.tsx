@@ -1,6 +1,6 @@
 import React from 'react';
 import { Sparkles } from 'lucide-react';
-import { usePudin } from '../hooks/usePudin';
+import { usePudin } from '../../hooks/usePudin';
 
 export const PudinButton: React.FC = () => {
   const { pudinState, activatePudin, canActivate } = usePudin();

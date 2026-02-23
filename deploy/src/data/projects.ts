@@ -45,20 +45,5 @@ export const projects: Project[] = [
       performance: 320,
       users: 456
     }
-  },
-  {
-    id: 'chalamandra-magistral',
-    title: 'Chalamandra Magistral',
-    desc: 'Dossier Decox: seducción + teoría. Punto de retorno para comprender el caos.',
-    url: 'https://chalamandra-magistral.vercel.app/',
-    tag: 'Mastermind',
-    isPro: false,
-    status: 'maintenance',
-    lastUpdate: '2024-12-12',
-    metrics: {
-      uptime: 98.9,
-      performance: 156,
-      users: 2341
-    }
   }
 ];
