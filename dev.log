@@ -1,0 +1,6 @@
+
+> microcosmos-soberano@2.0.0 start /app
+> vercel dev
+
+sh: 1: vercel: not found
+ ELIFECYCLE  Command failed.
