@@ -87,3 +87,11 @@ permission denied while trying to connect to the docker API at unix:///var/run/d
 jq: error (at <unknown>): Expected JSON value (while parsing '')
 🔒 Snapshot actualizado localmente. Sin radiación externa.
 🟢 Estado del Cosmos: ESTABLE | RAM: 2066MB
+permission denied while trying to connect to the docker API at unix:///var/run/docker.sock
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+🔒 Snapshot actualizado localmente. Sin radiación externa.
+🟢 Estado del Cosmos: ESTABLE | RAM: 1851MB
+permission denied while trying to connect to the docker API at unix:///var/run/docker.sock
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+🔒 Snapshot actualizado localmente. Sin radiación externa.
+🟢 Estado del Cosmos: ESTABLE | RAM: 1904MB

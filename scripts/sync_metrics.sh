@@ -8,24 +8,19 @@ if [ ! -f "$CSV_FILE" ]; then
     exit 1
 fi
 
-# Leer la última línea del CSV (la más reciente)
 ULTIMA_LINEA=$(tail -n 1 "$CSV_FILE")
-# Si la línea está vacía, salir
 if [ -z "$ULTIMA_LINEA" ]; then
     echo "⚠️ CSV vacío. Esperando primera ejecución de shor_15.py"
     exit 0
 fi
 
-# Formato: timestamp,time_s,ram_mb,cpu_percent,success
 IFS=',' read -r ts time ram cpu success <<< "$ULTIMA_LINEA"
 
-# Generar counts aleatorios realistas para los picos 0,4,8,12
 C0000=$((250 + RANDOM % 20))
 C0100=$((250 + RANDOM % 20))
 C1000=$((250 + RANDOM % 20))
 C1100=$((250 + RANDOM % 20))
 
-# Crear el JSON
 jq -n \
   --argjson c "{\"0000\": $C0000, \"0100\": $C0100, \"1000\": $C1000, \"1100\": $C1100}" \
   --arg t "$time" \
