@@ -1,0 +1,1 @@
+/home/chalamandramagistral/microcosmos_elite/scripts/latido_soberano.sh

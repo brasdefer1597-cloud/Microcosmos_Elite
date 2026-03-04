@@ -1,0 +1,12 @@
+quantum_env/
+__pycache__/
+*.pyc
+*.py[cod]
+node_modules/
+dist/
+build/
+.env
+*.log
+*.jsonl  # opcional: si no quieres subir telemetry grande
+data/*.log
+data/money.log

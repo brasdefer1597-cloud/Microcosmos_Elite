@@ -1,0 +1,95 @@
+.scanline-effect {
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  background-size: 100% 2px, 3px 100%;
+  min-height: 100vh;
+}
+
+.glitch-text {
+  text-shadow: 2px 0 #ff0000, -2px 0 #0000ff;
+  animation: glitch 1.5s infinite linear alternate-reverse;
+}
+
+@keyframes glitch {
+  0% { text-shadow: 2px 0 #f00, -2px 0 #00f; transform: skew(0deg); }
+  20% { transform: skew(-1deg); }
+  100% { text-shadow: -2px 0 #f00, 2px 0 #00f; transform: skew(1deg); }
+}
+/* Animación Esfera de Bloch */
+.bloch-sphere {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 255, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.inner-qubit {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #22c55e;
+  border-radius: 50%;
+  animation: rotateQubit 2s infinite linear;
+}
+
+@keyframes rotateQubit {
+  0% { transform: rotateX(0deg) rotateY(0deg); opacity: 0.5; }
+  50% { transform: rotateX(180deg) rotateY(90deg); opacity: 1; }
+  100% { transform: rotateX(360deg) rotateY(180deg); opacity: 0.5; }
+}
+
+/* Animación Esfera de Bloch */
+.bloch-sphere {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 255, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.inner-qubit {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #22c55e;
+  border-radius: 50%;
+  animation: rotateQubit 2s infinite linear;
+}
+
+@keyframes rotateQubit {
+  0% { transform: rotateX(0deg) rotateY(0deg); }
+  100% { transform: rotateX(360deg) rotateY(180deg); opacity: 0.5; }
+}
+
+/* Efecto Scanline de Terminal Táctica */
+.scanline-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.scanline-effect::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), 
+              linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 2;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+}
+
+@keyframes flicker {
+  0% { opacity: 0.97; }
+  5% { opacity: 0.95; }
+  10% { opacity: 0.9; }
+  100% { opacity: 1; }
+}
+
+.scanline-effect {
+  animation: flicker 0.15s infinite;
+}
