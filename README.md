@@ -1,17 +1,18 @@
-# 🌌 Microcosmos Elite: Quantum Business Oracle
+# 💠 MICROCOSMOS ELITE v6.0
 
-Este proyecto implementa un motor de búsqueda cuántica (Algoritmo de Grover) optimizado para la toma de decisiones financieras (POAS).
+> **Status:** OPERATIONAL | **Hardware:** Celeron N4020 Optimized | **Core:** Grover 6-Qubits
 
-## 🚀 Características
-- **Fidelidad Cuántica:** 100.00% alcanzada con 5 Qubits mediante una puerta Z multi-controlada (MCZ).
-- **Telemetría en Tiempo Real:** Monitoreo de CPU y RAM para optimización en hardware limitado (Celeron N4020).
-- **Arquitectura Monolítica:** Backend en Flask, Sincronización en Bash y Persistencia de datos en CSV.
+Sistema de optimización cuántica para **Marketing Budget Pacing**. Este búnker utiliza el Algoritmo de Grover para encontrar el estado de ROI máximo (POAS) en un espacio de búsqueda de 64 estados (6-Qubits), simulado en un entorno de baja latencia.
 
-## 🛠️ Stack Tecnológico
-- **Lenguaje:** Python (Qiskit, Numpy)
-- **Automatización:** Bash Scripting
-- **Infraestructura:** Git, Github, Render
-- **Métricas:** Telemetría integrada para prevención de Swapping.
+## 🚀 Arquitectura del Sistema
+* **Engine:** `grover_engine.py` (Quantum Search Logic)
+* **Pulse:** `latido.sh` (Auto-deployment & Sync)
+* **Frontend:** Dashboard Neón con telemetría en tiempo real (Chart.js + Tailwind).
+
+## 📊 Métricas Clave
+| Qubits | Estados | Fidelidad | Infraestructura |
+| :--- | :--- | :--- | :--- |
+| 6 | 64 | 100% | Linux / Docker / zRAM |
 
 ---
-*Desarrollado en condiciones de estrés de hardware para demostrar la eficiencia del Nirvana del Código.*
+*“En el Microcosmos, el hardware limitado es solo una variable, no un límite.”*

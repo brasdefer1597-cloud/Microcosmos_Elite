@@ -1,43 +1,8 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nirvana | Quantum Dashboard</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <style>
-        body { background-color: #0a0a0a; color: #00ff41; font-family: 'Courier New', monospace; }
-        .neon-border { border: 1px solid #00ff41; box-shadow: 0 0 10px #00ff41; }
-        .neon-text { text-shadow: 0 0 5px #00ff41; }
-    </style>
-</head>
-<body class="p-4 md:p-8">
-    <header class="mb-8 border-b border-green-900 pb-4">
-        <h1 class="text-3xl font-bold neon-text">MICROCOSMOS ELITE <span class="text-sm bg-green-900 px-2 rounded">v6.0</span></h1>
-        <p class="text-gray-500">Oráculo Cuántico: 6 Qubits | Optimización de Pacing</p>
-    </header>
-
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-        <div class="neon-border p-4 bg-black/50">
-            <h3 class="text-xs text-gray-400 uppercase">Fidelidad de Grover</h3>
-            <p id="fid-val" class="text-4xl font-bold">--%</p>
-        </div>
-        <div class="neon-border p-4 bg-black/50 border-blue-500 shadow-blue-500/50">
-            <h3 class="text-xs text-gray-400 uppercase">Marketing POAS</h3>
-            <p id="poas-val" class="text-4xl font-bold text-blue-400">--x</p>
-        </div>
-        <div class="neon-border p-4 bg-black/50 border-purple-500 shadow-purple-500/50">
-            <h3 class="text-xs text-gray-400 uppercase text-purple-400">Estado Objetivo</h3>
-            <p id="target-val" class="text-4xl font-bold text-purple-400">|110110></p>
-        </div>
     </div>
-
     <div class="neon-border p-6 bg-black/20">
         <h2 class="mb-4 text-xl">Propagación de Amplitud (ROI Real-Time)</h2>
         <canvas id="poasChart" style="max-height: 400px;"></canvas>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
