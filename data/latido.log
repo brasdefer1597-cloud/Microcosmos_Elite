@@ -1730,3 +1730,536 @@ jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shel
 jq: 1 compile error
 jq: error (at <unknown>): Expected JSON value (while parsing '')
 📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:12:52 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:13:02 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:13:13 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:13:24 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:13:35 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:13:46 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:14:01 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:14:14 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:14:24 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:14:35 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:14:47 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:14:58 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:15:09 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:15:19 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:15:30 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:15:41 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+/home/chalamandramagistral/microcosmos_elite/scripts/sync_metrics.sh: line 16: echo: write error: Broken pipe
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:15:51 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:16:02 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:16:13 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:16:23 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:16:34 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:16:44 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:16:55 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:17:06 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:17:16 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:17:28 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:17:39 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:17:50 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:18:01 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:18:11 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:18:22 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:18:32 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:18:43 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:18:54 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:19:06 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:19:16 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:19:27 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:19:37 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:19:49 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:20:23 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:20:35 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:20:47 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:20:59 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:21:11 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+/home/chalamandramagistral/microcosmos_elite/scripts/sync_metrics.sh: line 16: echo: write error: Broken pipe
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:21:23 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:21:34 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+/home/chalamandramagistral/microcosmos_elite/scripts/sync_metrics.sh: line 16: echo: write error: Broken pipe
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:21:45 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:21:56 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:22:07 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:22:18 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:22:29 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:22:40 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
+💓 Latido: Wed Mar  4 02:22:51 AM CST 2026
+Traceback (most recent call last):
+  File "/home/chalamandramagistral/microcosmos_elite/scripts/shor_15.py", line 4, in <module>
+    import psutil
+ModuleNotFoundError: No module named 'psutil'
+jq: error: syntax error, unexpected INVALID_CHARACTER, expecting $end (Unix shell quoting issues?) at <top-level>, line 1:
+.mejor_campaña // 0            
+jq: 1 compile error
+jq: error (at <unknown>): Expected JSON value (while parsing '')
+📊 Telemetría: POAS HW 2.5x | CAC 30 | Ratio 1.5 | POAS Biz x | FID % | Campaña #
